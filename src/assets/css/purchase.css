@@ -1,0 +1,35 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  min-width: 854px;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form-item .label {
+  text-align: right;
+  width: 110px;
+}
+.form-item .info {
+  flex: 1;
+}
+.table-wrap {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background: #fff;
+}
+.tabs {
+  width: calc(100% - 20px);
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  min-width: 854px;
+}

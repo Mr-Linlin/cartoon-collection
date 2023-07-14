@@ -1,0 +1,102 @@
+.dashboard .page-header {
+  box-sizing: border-box;
+  margin: 0;
+  color: #000000d9;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  height: 116px;
+  line-height: 116px;
+  list-style: none;
+  font-feature-settings: tnum;
+  position: relative;
+  padding: 16px 24px;
+  background-color: #fff;
+}
+.dashboard .page-header .title-info {
+  display: flex;
+}
+.dashboard .page-header .title-info .tietle {
+  margin-left: 10px;
+}
+.dashboard .page-content {
+  margin: 16px;
+  overflow: hidden;
+}
+.dashboard .page-content .content {
+  display: flex;
+}
+.dashboard .page-content .content .lg-left {
+  width: 60%;
+  margin-right: 14px;
+}
+.dashboard .page-content .content .item-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #000000d9;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: tnum;
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+}
+.dashboard .page-content .content .item-card .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 48px;
+  margin-bottom: -1px;
+  padding: 0 24px;
+  color: #000000d9;
+  font-weight: 500;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+}
+.dashboard .page-content .content .item-card .card-head .title {
+  color: #000000d9;
+  font-weight: 400;
+  font-size: 16px;
+}
+.dashboard .page-content .content .item-card .card-head .more {
+  color: #0960bd;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.dashboard .page-content .content .item-card .card-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard .page-content .content .item-card .card-body .card-body-item {
+  display: flex;
+  width: 23.33%;
+  padding: 24px;
+  height: 148px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 1px 0 #f0f0f0, 0 1px #f0f0f0, 1px 1px #f0f0f0, 1px 0 #f0f0f0 inset, 0 1px #f0f0f0 inset;
+  transition: all 0.3s;
+}
+.dashboard .page-content .content .item-card .card-body .card-body-item .cartoon-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+}
+.dashboard .page-content .content .item-card .card-body .card-body-item .cartoon-info p {
+  margin-bottom: 10px;
+}
+.dashboard .page-content .content .item-card .card-body .card-body-item:hover {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 1px 2px -2px #00000029, 0 3px 6px #0000001f, 0 5px 12px 4px #00000017;
+}
+.dashboard .page-content .content .lg-right {
+  width: 40%;
+}
